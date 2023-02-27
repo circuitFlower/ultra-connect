@@ -127,7 +127,7 @@
     font-size: 5em;
     font-family: sans-serif;
     font-weight: bolder;
-    margin: 38vh 0 0 50vw;
+    margin: 35vh 0 0 50vw;
     text-align: right;
   }
   article#main div p{
@@ -146,18 +146,18 @@
   .title{
     font-family: "Allura";
     /* line-height: 0; */
-    font-size: .7em;
+    font-size: .5em;
     color: #FACD8F;
     margin: 0;
   }
   .miles{
     color: #BA823D;
-    font-size: .9em;
+    font-size: .6em;
     margin: 0;
     text-align: center;
   }
   .details{
-    font-size: .4em;
+    font-size: .3em;
     text-align: center;
     color: #FACD8F;
     margin: 0;
