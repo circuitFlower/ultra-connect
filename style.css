@@ -1,0 +1,44 @@
+body{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  background-color: black;
+}
+article#main{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  background-image: url("wildebeest5.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 170vh;
+}
+article#main div{
+  position: absolute;
+
+  font-size: 5em;
+  font-family: sans-serif;
+  font-weight: bolder;
+  margin: 81vh 0 0 55vw;
+  text-align: right;
+}
+article#main div p{
+  margin: 3vh 0 0 0;
+
+}
+article form{
+  position: absolute;
+  margin: 95vh 0 0 88vw;
+}
+article form input{
+  height: 3vh;
+  border-radius: 25px;
+  color: #666;
+}
+.title{
+  font-family: "Allura";
+  line-height: 0;
+  font-size: .8em;
+  color: #FACD8F;
+}
+.miles{
+  color: #BA823D;
+}
