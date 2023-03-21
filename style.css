@@ -51,7 +51,7 @@
     margin: -10vh 0 0 0;
   }
   .connect{
-     line-height: 0;
+     line-height: 1;
     font-size: .5em;
     text-align: right;
     color: #BA823D;
@@ -169,6 +169,12 @@
     text-align: center;
   }
   .details{
+    font-size: .3em;
+    text-align: center;
+    color: #FACD8F;
+    margin: 0;
+  }
+  .connect{
     font-size: .3em;
     text-align: center;
     color: #FACD8F;
