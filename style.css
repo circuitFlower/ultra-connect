@@ -50,7 +50,13 @@
     color: #BA823D;
     margin: -10vh 0 0 0;
   }
-
+  .connect{
+     line-height: 0;
+    font-size: .5em;
+    text-align: right;
+    color: #BA823D;
+    margin: -10vh 0 0 0;
+  }
 }
 
 @media screen and (min-width: 200px) and (max-width: 1279px) and (orientation: portrait){
@@ -102,6 +108,12 @@
     text-align: center;
   }
   .details{
+    font-size: .4em;
+    text-align: center;
+    color: #FACD8F;
+    margin: 0;
+  }
+  .connect{
     font-size: .4em;
     text-align: center;
     color: #FACD8F;
