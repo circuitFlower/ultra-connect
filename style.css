@@ -57,6 +57,9 @@
     color: #BA823D;
     margin: -10vh 0 0 0;
   }
+  .connect a{
+    color: #fff;
+  }
 }
 
 @media screen and (min-width: 200px) and (max-width: 1279px) and (orientation: portrait){
@@ -119,6 +122,9 @@
     color: #FACD8F;
     margin: 0;
   }
+  .connect a{
+    color: #fff;
+  }
 }
 @media screen and (orientation: landscape) and (min-width: 200px) and (max-width: 1279px)  {
   body{
@@ -179,5 +185,8 @@
     text-align: center;
     color: #FACD8F;
     margin: 0;
+  }
+  .connect a{
+    color: #fff;
   }
 }
