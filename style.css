@@ -274,7 +274,7 @@ background-color: white;
     font-size: 4.5em;
     font-family: sans-serif;
     font-weight: bolder;
-    margin: 52vh 0 0 3vw;
+    margin: 40vh 0 0 3vw;
 
   }
   article#main div p{
@@ -317,7 +317,7 @@ background-color: white;
     margin: 0;
   }
   .connect a{
-    color: #fff;
+    color: #1B7CC3;
   }
 }
 @media screen and (min-width: 200px) and (max-width: 799px) and (orientation: landscape)  {
@@ -381,6 +381,6 @@ background-color: white;
     margin: 0;
   }
   .connect a{
-    color: #fff;
+    color: #1B7CC3;
   }
 }
