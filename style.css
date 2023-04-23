@@ -1,8 +1,71 @@
-@media (min-width: 1280px) {
+@media (min-width: 1280px) and (orientation: portrait) {
   body{
     margin: 0 0 0 0;
     padding: 0 0 0 0;
-    background-color: black;
+    background-color: white;
+  }
+  article#main{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-image: url("wildebeest5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 170vh;
+  }
+  article#main div{
+    position: absolute;
+    font-size: 4em;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin: 3vh 0 0 47vw;
+    text-align: right;
+  }
+  article#main div p{
+    margin: 3vh 0 0 0;
+
+  }
+  article form{
+    position: absolute;
+    margin: 95vh 0 0 88vw;
+  }
+  article form input{
+    height: 3vh;
+    border-radius: 25px;
+    color: #666;
+  }
+  .title{
+    width: 100%;
+    font-family: "Allura";
+    line-height: 0;
+    font-size: .8em;
+    color: #FACD8F;
+  }
+  .miles{
+    color: #BA823D;
+  }
+  .details{
+    line-height: 0;
+    font-size: .5em;
+    text-align: right;
+    color: #BA823D;
+    margin: -10vh 0 0 0;
+  }
+  .connect{
+     line-height: 1;
+    font-size: .5em;
+    text-align: right;
+    color: #BA823D;
+    margin: -10vh 0 0 0;
+  }
+  .connect a{
+    color: #fff;
+  }
+}
+@media (min-width: 1280px) and (orientation: landscape) {
+  body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-color: white;
   }
   article#main{
     margin: 0 0 0 0;
@@ -18,7 +81,7 @@
     font-size: 5em;
     font-family: sans-serif;
     font-weight: bolder;
-    margin: 81vh 0 0 55vw;
+    margin: 3vh 0 0 40vw;
     text-align: right;
   }
   article#main div p{
@@ -62,7 +125,7 @@
   }
 }
 
-@media screen and (min-width: 200px) and (max-width: 1279px) and (orientation: portrait){
+@media screen and (min-width: 800px) and (max-width: 1279px) and (orientation: portrait){
   body{
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -78,14 +141,15 @@
   }
   article#main div{
     position: absolute;
-    font-size: 5em;
+    font-size: 4.5em;
     font-family: sans-serif;
     font-weight: bolder;
-    margin: 38vh 0 0 17vw;
-    text-align: right;
+    margin: 23vh 0 0 48vw;
+
   }
   article#main div p{
     /* margin: 3vh 0 0 0; */
+    text-align: right;
 
   }
   article form{
@@ -105,7 +169,7 @@
     margin: 0;
   }
   .miles{
-    color: #BA823D;
+    color: #292222;
     font-size: .9em;
     margin: 0;
     text-align: center;
@@ -126,7 +190,7 @@
     color: #fff;
   }
 }
-@media screen and (orientation: landscape) and (min-width: 200px) and (max-width: 1279px)  {
+@media screen and (min-width: 800px) and (max-width: 1279px) and (orientation: landscape)  {
   body{
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -147,6 +211,134 @@
     font-weight: bolder;
     margin: 30vh 0 0 40vw;
     text-align: right;
+  }
+  article#main div p{
+    /* margin: 3vh 0 0 0; */
+
+  }
+  article form{
+    position: absolute;
+    margin: 95vh 0 0 88vw;
+  }
+  article form input{
+    height: 3vh;
+    border-radius: 25px;
+    color: #666;
+  }
+  .title{
+    font-family: "Allura";
+    /* line-height: 0; */
+    font-size: .5em;
+    color: #FACD8F;
+    margin: 0;
+  }
+  .miles{
+    color: #292222;
+    font-size: .6em;
+    margin: 0;
+    text-align: center;
+  }
+  .details{
+    font-size: .3em;
+    text-align: center;
+    color: #FACD8F;
+    margin: 0;
+  }
+  .connect{
+    font-size: .3em;
+    text-align: center;
+    color: #FACD8F;
+    margin: 0;
+  }
+  .connect a{
+    color: #fff;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 799px) and (orientation: landscape)  {
+  body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-color: black;
+  }
+  article#main{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-image: url("wildebeest5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 170vh;
+  }
+  article#main div{
+    position: absolute;
+    font-size: 5em;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin: 80vh 0 0 auto;
+    text-align: center;
+  }
+  article#main div p{
+    /* margin: 3vh 0 0 0; */
+
+  }
+  article form{
+    position: absolute;
+    margin: 95vh 0 0 88vw;
+  }
+  article form input{
+    height: 3vh;
+    border-radius: 25px;
+    color: #666;
+  }
+  .title{
+    font-family: "Allura";
+    /* line-height: 0; */
+    font-size: .5em;
+    color: #FACD8F;
+    margin: 0;
+  }
+  .miles{
+    color: #BA823D;
+    font-size: .6em;
+    margin: 0;
+    text-align: center;
+  }
+  .details{
+    font-size: .3em;
+    text-align: center;
+    color: #FACD8F;
+    margin: 0;
+  }
+  .connect{
+    font-size: .3em;
+    text-align: center;
+    color: #FACD8F;
+    margin: 0;
+  }
+  .connect a{
+    color: #fff;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 799px) and (orientation: portait)  {
+  body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-color: black;
+  }
+  article#main{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-image: url("wildebeest5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 170vh;
+  }
+  article#main div{
+    position: absolute;
+    font-size: 5em;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin: 80vh 0 0 40vw;
+    text-align: center;
   }
   article#main div p{
     /* margin: 3vh 0 0 0; */
