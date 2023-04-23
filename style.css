@@ -320,7 +320,7 @@
   }
 }
 
-@media screen and (min-width: 200px) and (max-width: 799px) and (orientation: portait)  {
+@media screen and (min-width: 200px) and (max-width: 700px) and (orientation: portrait) {
   body{
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -339,7 +339,7 @@
     font-size: 5em;
     font-family: sans-serif;
     font-weight: bolder;
-    margin: 80vh 0 0 40vw;
+    margin: 80vh 0 0 auto;
     text-align: center;
   }
   article#main div p{
