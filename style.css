@@ -274,12 +274,12 @@ background-color: white;
     font-size: 4.5em;
     font-family: sans-serif;
     font-weight: bolder;
-    margin: 40vh 0 0 3vw;
-
+    margin: 40vh auto 0 5vw;
+    text-align: center;
   }
   article#main div p{
     /* margin: 3vh 0 0 0; */
-    text-align: center;
+
 
   }
   article form{
@@ -381,6 +381,6 @@ background-color: white;
     margin: 0;
   }
   .connect a{
-    color: #1B7CC3;
+    color: #fff;
   }
 }
